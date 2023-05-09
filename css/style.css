@@ -21,6 +21,7 @@ nav{
 nav ul{
     display: block;
     width: 100%;
+    list-style: none;
 }
 nav ul li{
     display: inline-block;
