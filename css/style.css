@@ -119,6 +119,36 @@ section div.box-produtos .valor-atual{
 }
 
 /* FIM PROPRIEDADES DA PAGINA PRODUTOS */
+
+main#faleconosco table{
+    margin-top: 20px;
+}
+
+main#faleconosco form{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+main#faleconosco input{
+    margin: 5px 0 5px 0;
+    width: 400px;
+}
+
+main#faleconosco textarea{
+    width: 400px;
+}
+
+main#faleconosco #btn{
+    width: 100px;
+}
+
+/* FIM PROPRIEDADES DA PAGINA FALE CONOSCO */
+
+main#nossas-lojas table{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
 footer{
     clear: both;
     width: 100%;
