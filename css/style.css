@@ -44,19 +44,45 @@ nav > ul > li > a:hover{
     text-decoration: underline;
 }
 
-table#categorias{
+main{
+    padding-bottom: 20px;
+}
+
+ #categorias{
     vertical-align: top;
+}
+
+table{
+    text-align: center;
 }
 
 table td{
     width: 20%;
-    text-align: center;
+    vertical-align: bottom;
+}
+
+table td p.valor-antigo{
+    font-size: 0.9em;
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+
+table td p.valor-atual{
+    color: red;
+    font-weight: bolder;
+    font-size: 1.1em;
 }
 
 table td img{
     width: 120px;
 }
 
-body > img{
+footer{
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+footer > img{
     width: 300px;
 }
