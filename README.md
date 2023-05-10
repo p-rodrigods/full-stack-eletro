@@ -1,3 +1,3 @@
 # full-stack-eletro
- Full Stack Eletro - Curso Recode
- Usando html, css e js
+ Full Stack Eletro - Curso Recode,
+ usando html, css e js
