@@ -7,40 +7,18 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    background-color: red;
-    width: 100%;
+.menu{
+    background-color: #ff0000;
 }
 
-nav img{
-    width: 150px;
-}
-
-nav ul{
-    display: block;
-    width: 100%;
-    padding: 20px 0 20px 0;
-}
-
-nav ul li{
-    display: inline-block;
-    margin-left: 10%;
-    text-align: center;
-    padding: 0 20px 0 20px;
-}
-
-
-nav ul li a {
+.menu a{
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
-    font-size: 1.2em;
 }
 
-nav ul li a:hover{
-    text-decoration: underline;
+.menu img{
+    width: 100px;
 }
-
 /*FIM PROPRIEDADES TOP*/
 
 main{
