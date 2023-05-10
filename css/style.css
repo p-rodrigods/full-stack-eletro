@@ -3,86 +3,75 @@
     padding: 0;
 }
 
-h1{
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4{
-    color: red;
+nav{
+    background-color: red;
+    width: 100%;
 }
 
-nav{
-    width: 100%;
-    background-color: red;
-    text-align: center;
+nav img{
+    width: 150px;
 }
 
 nav ul{
     display: block;
     width: 100%;
-    list-style: none;
+    padding: 20px 0 20px 0;
 }
 
 nav ul li{
     display: inline-block;
-    width: 20%;
-    padding: 10px;
+    margin-left: 10%;
+    text-align: center;
+    padding: 0 20px 0 20px;
 }
 
-nav > ul > li > a > img{
-    width: 100px;
-}
 
-nav > ul > li > a{
+nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.5em;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
-nav > ul > li > a:hover{
+nav ul li a:hover{
     text-decoration: underline;
 }
 
+/*FIM PROPRIEDADES TOP*/
+
 main{
-    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
 }
 
- #categorias{
-    vertical-align: top;
+main h1{
+    font-size: 1.2em;
+    margin-top: 10px;
 }
 
-table{
-    text-align: center;
+main p{
+    margin: 10px 0 10px 0;
 }
 
-table td{
-    width: 20%;
-    vertical-align: bottom;
-}
-
-table td p.valor-antigo{
-    font-size: 0.9em;
-    text-decoration: line-through;
-    font-weight: bolder;
-}
-
-table td p.valor-atual{
-    color: red;
-    font-weight: bolder;
-    font-size: 1.1em;
-}
-
-table td img{
-    width: 120px;
-}
+/*FIM PROPRIEDADES CONTEUDO*/
 
 footer{
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px solid black;
+    width: 100%;
+    margin: auto;
     text-align: center;
+    padding-top: 100px;
 }
-footer > img{
-    width: 300px;
+
+footer h4{
+    font-size: 1em;
+    color: red;
+    font-weight: lighter;    
+}
+
+footer img{
+    width: 280px;
 }
