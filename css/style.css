@@ -89,6 +89,7 @@ main section.categorias ul li{
 main section.categorias ul li:hover{
     background-color: red;
     color: #fff;
+    cursor: pointer;
 }
 
 main section.produtos{
