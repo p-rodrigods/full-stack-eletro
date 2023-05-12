@@ -1,11 +1,11 @@
 function exibir(categorias){
-    //alert(categoria);
+    //alert(categorias);
 
     let elementos = document.getElementsByClassName('box-produtos');
     console.log(elementos);
     for(let i=0; i < elementos.length; i++){
         console.log(elementos[i].id);
-        if(categoria == elementos[i].id)
+        if(categorias == elementos[i].id)
             elementos[i].style = "display: inline-block";
         else   
             elementos[i].style = "display: none";
