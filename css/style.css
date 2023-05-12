@@ -91,15 +91,15 @@ main section.produtos{
 }
 
 section div.box-produtos{
-    padding-top: 20px;
-    width: 200px;
+    padding-top: 50px;
+    width: 300px;
+    margin-left: 20px;
     display: inline-block;
     text-align: center ;
 }
 
 section div.box-produtos img{
-    width: 150px;
-    padding: 20px 0 20px 0;
+    width: 120px;
 }
 
 section div.box-produtos > p{
@@ -130,6 +130,7 @@ main#faleconosco form{
     padding: 10px 0 10px 0;
     text-align: center;
 }
+
 main#faleconosco input{
     margin: 5px 0 5px 0;
     width: 400px;
